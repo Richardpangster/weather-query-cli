@@ -1,0 +1,29 @@
+{
+  "name": "weather-query-cli",
+  "version": "1.0.0",
+  "description": "一个命令行天气查询工具。",
+  "main": "dist/index.js",
+  "bin": {
+    "weather-query": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richardpangster/weather-query-cli.git"
+  },
+  "keywords": ["weather", "cli", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richardpangster/weather-query-cli/issues"
+  },
+  "homepage": "https://github.com/Richardpangster/weather-query-cli#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  }
+}
