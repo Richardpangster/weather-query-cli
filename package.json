@@ -1,6 +1,6 @@
 {
   "name": "weather-query-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "一个命令行天气查询工具。",
   "main": "dist/index.js",
   "bin": {
